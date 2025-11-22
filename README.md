@@ -27,14 +27,15 @@ To evaluate script-conditioned generalization, the framework is validated on dat
 
 ## Figures
 
-### Figure 1 — English (Latin Script) — DeepSignDB
-![English Signature Analysis]<table> <tr> <td><img src="figures/English_Genuine.jpg" width="48%"></td> <td><img src="figures/English_Forge.jpg" width="48%"></td> </tr> </table>
+### Figure 1 — Structure, Stroke and Pressure analysis curve for genuine and forged signatures in Latin script English language from DeepSignDB dataset
+<table> <tr> <td><img src="figures/English_Genuine.jpg" width="48%"></td> <td><img src="figures/English_Forge.jpg" width="48%"></td> </tr> </table>
 
-### Figure 2 — Hindi (Devanagari Script) — HinSig
-![Hindi Signature Analysis]<table> <tr> <td><img src="figures/Hindi_Genuine.jpg" width="48%"></td> <td><img src="figures/Hindi_Forge.jpg" width="48%"></td> </tr> </table>
+### Figure 2 — Structure, Stroke and Pressure analysis curve for genuine and forged signatures in Devanagari script Hindi language from HinSig
+Dataset
+<table> <tr> <td><img src="figures/Hindi_Genuine.jpg" width="48%"></td> <td><img src="figures/Hindi_Forge.jpg" width="48%"></td> </tr> </table>
 
-### Figure 3 — Chinese (Hanzi Script) — SigComp11 Chinese
-![Chinese Signature Analysis]<table> <tr> <td><img src="figures/Chinese_Genuine.jpg" width="48%"></td> <td><img src="figures/Chinese_Forge.jpg" width="48%"></td> </tr> </table>
+### Figure 3 — Structure, Stroke and Pressure analysis curve for genuine and forged signatures in Chinese (Hanzi Script) from SigComp11 Chinese
+<table> <tr> <td><img src="figures/Chinese_Genuine.jpg" width="48%"></td> <td><img src="figures/Chinese_Forge.jpg" width="48%"></td> </tr> </table>
 
-### Figure 4 — Dutch (Latin Script) — SigComp11 Dutch
-![Dutch Signature Analysis]<table> <tr> <td><img src="figures/Dutch_Genuine.jpg" width="48%"></td> <td><img src="figures/Dutch_Forge.jpg" width="48%"></td> </tr> </table>
+### Figure 4 — Structure, Stroke and Pressure analysis curve for genuine and forged signatures in Latin Script Dutch Language from SigComp11 Dutch
+<table> <tr> <td><img src="figures/Dutch_Genuine.jpg" width="48%"></td> <td><img src="figures/Dutch_Forge.jpg" width="48%"></td> </tr> </table>
