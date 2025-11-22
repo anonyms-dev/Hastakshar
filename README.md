@@ -28,13 +28,13 @@ To evaluate script-conditioned generalization, the framework is validated on dat
 ## Figures
 
 ### Figure 1 — English (Latin Script) — DeepSignDB
-![English Signature Analysis]<table> <tr> <td><img src="figures/english_structure.png" width="48%"></td> <td><img src="figures/english_pressure.png" width="48%"></td> </tr> </table>
+![English Signature Analysis]<table> <tr> <td><img src="figures/English_Genuine.jpg" width="48%"></td> <td><img src="figures/English_Forge.jpg" width="48%"></td> </tr> </table>
 
 ### Figure 2 — Hindi (Devanagari Script) — HinSig
-![Hindi Signature Analysis]<table> <tr> <td><img src="figures/hindi_structure.png" width="48%"></td> <td><img src="figures/hindi_pressure.png" width="48%"></td> </tr> </table>
+![Hindi Signature Analysis]<table> <tr> <td><img src="figures/Hindi_Genuine.jpg" width="48%"></td> <td><img src="figures/Hindi_Forge.jpg" width="48%"></td> </tr> </table>
 
 ### Figure 3 — Chinese (Hanzi Script) — SigComp11 Chinese
-![Chinese Signature Analysis]<table> <tr> <td><img src="figures/chinese_structure.png" width="48%"></td> <td><img src="figures/chinese_pressure.png" width="48%"></td> </tr> </table>
+![Chinese Signature Analysis]<table> <tr> <td><img src="figures/Chinese_Genuine.jpg" width="48%"></td> <td><img src="figures/Chinese_Forge.jpg" width="48%"></td> </tr> </table>
 
 ### Figure 4 — Dutch (Latin Script) — SigComp11 Dutch
-![Dutch Signature Analysis]<table> <tr> <td><img src="figures/dutch_structure.png" width="48%"></td> <td><img src="figures/dutch_pressure.png" width="48%"></td> </tr> </table>
+![Dutch Signature Analysis]<table> <tr> <td><img src="figures/Dutch_Genuine.jpg" width="48%"></td> <td><img src="figures/Dutch_Forge.jpg" width="48%"></td> </tr> </table>
