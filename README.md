@@ -28,13 +28,13 @@ To evaluate script-conditioned generalization, the framework is validated on dat
 ## Figures
 
 ### Figure 1 — English (Latin Script) — DeepSignDB
-![English Signature Analysis](figures/english_signature_analysis.png)
+![English Signature Analysis]<table> <tr> <td><img src="figures/english_structure.png" width="48%"></td> <td><img src="figures/english_pressure.png" width="48%"></td> </tr> </table>
 
 ### Figure 2 — Hindi (Devanagari Script) — HinSig
-![Hindi Signature Analysis](figures/hindi_signature_analysis.png)
+![Hindi Signature Analysis]<table> <tr> <td><img src="figures/hindi_structure.png" width="48%"></td> <td><img src="figures/hindi_pressure.png" width="48%"></td> </tr> </table>
 
 ### Figure 3 — Chinese (Hanzi Script) — SigComp11 Chinese
-![Chinese Signature Analysis](figures/chinese_signature_analysis.png)
+![Chinese Signature Analysis]<table> <tr> <td><img src="figures/chinese_structure.png" width="48%"></td> <td><img src="figures/chinese_pressure.png" width="48%"></td> </tr> </table>
 
 ### Figure 4 — Dutch (Latin Script) — SigComp11 Dutch
-![Dutch Signature Analysis](figures/dutch_signature_analysis.png)
+![Dutch Signature Analysis]<table> <tr> <td><img src="figures/dutch_structure.png" width="48%"></td> <td><img src="figures/dutch_pressure.png" width="48%"></td> </tr> </table>
