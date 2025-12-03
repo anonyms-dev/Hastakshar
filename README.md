@@ -6,15 +6,15 @@
 pip install -r requirements.txt
 ```
 
-## Abstract
+## Introduction
 
-The growing ubiquity of digitization has intensified the use of online signature verification, while offline signature verification has existed for years. Online signatures capture structural (shape) and behavioral modalities such as velocity, pressure, and stroke sequence. This increasing prevalence has also enabled AI-generated forgeries, demanding a generalized and robust verification system resilient against both manual and synthetic forgeries across diverse linguistic writing styles.
+Online signature verification has become central to secure digital transactions, offering richer behavioral cues than traditional offline signatures. Modern devices capture a signer’s dynamics — motion, pressure, rhythm, and stroke formation — making it possible to distinguish genuine writing from both human and AI-generated forgeries. However, variations in writing style, script complexity, and neuromotor behavior still limit the reliability of current systems, especially when attackers can synthesize highly convincing digital forgeries.
 
-In this work, we propose Hastakshar (Hindi word for Signature), a multimodal framework that fuses Sigma-Lognormal stroke modeling, Ensemble Empirical Mode Decomposition (EEMD), and Hilbert–Huang Transform (HHT) based pressure analysis inside a unified Transformer architecture.
+To address these challenges, we introduce Hastakshar, a multimodal signature verification framework designed to learn both the structural and temporal characteristics of handwriting. Hastakshar converts each signature into two complementary representations: (1) sigma-lognormal stroke tokens, modeling neuromuscular motion patterns, and (2) Hilbert-based pressure descriptors derived from Ensemble Empirical Mode Decomposition (EEMD). These representations capture stroke geometry, signing intent, surface interaction, and micro-variations that are difficult to imitate.
 
-The trajectory is decomposed into lognormal stroke tokens that normalize neuromotor variability, while pressure signals are transformed via Hilbert analysis into instantaneous amplitude and instantaneous frequency tokens, capturing detailed surface dynamics. A multi-stream Transformer with cross-attention fuses these modalities to generate discriminative embeddings capable of identifying genuine and forged signatures.
+A multistream Transformer with cross-attention integrates these signals into a unified embedding space optimized for detecting subtle inconsistencies between genuine and forged signatures. The system is evaluated on multiple scripts — English, Dutch, Chinese, and Hindi — demonstrating strong generalization across languages and writing styles.
 
-To evaluate script-conditioned generalization, the framework is validated on datasets covering English and Dutch (Latin), Chinese (Hanzi), and Hindi (Devanagari). We also introduce the first Hindi Online Signature dataset — HinSig, with device metadata and baseline protocols to accelerate Indic script signature research. Hastakshar demonstrates improved verification accuracy along with interpretable decomposition via sigma-lognormal parameters and Hilbert spectral patterns.
+Hastakshar delivers improved verification accuracy, enhanced resistance to synthetic forgeries, and interpretable insights through its stroke-decomposition and pressure-spectral representations, offering a robust foundation for next-generation signature security.
 
 ## Performance of EER (80:20 vs 1:4)
 
